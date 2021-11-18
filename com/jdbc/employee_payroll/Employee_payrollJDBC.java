@@ -21,7 +21,7 @@ public class Employee_payrollJDBC {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			System.out.println("Driver loaded");
-			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306?user = root & password = Brijesh@534");
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306?user = root & password = Rahulyadav@123");
 			System.out.println("connection established");
 			statement = con.createStatement();
 			System.out.println("platform created");
